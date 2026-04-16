@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display
+        :ital@0;1&family=DM+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+ 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <header>
+    <h1>Weather</h1>
+    <p>Open-Meteo · No API Key Required</p>
+  </header>
+ 
+  <div class="search-box">
+    <input type="text" id="city-input"
+           placeholder="Enter city name..."
+           autocomplete="off" />
+    <button onclick="searchCity()">Search</button>
+  </div>
+ 
+  <div id="weather-container"></div>
+ 
+  <footer>
+    Data from open-meteo.com & OpenStreetMap Nominatim
+  </footer>
+ 
+  <script src="app.js"></script>
+</body>
+</html>
