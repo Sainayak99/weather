@@ -179,6 +179,6 @@ document.getElementById("city-input").addEventListener("keydown", e => {
  
 // ── Auto-load on page open ────────────────────────────────
 (async () => {
-  document.getElementById("city-input").value = "London";
+  document.getElementById("city-input").value = "Holyoke";
   await searchCity();
 })();
